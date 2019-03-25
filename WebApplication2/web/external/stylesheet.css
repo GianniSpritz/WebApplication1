@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-mar-2019, 12.52.38
+    Author     : a
+*/
+
+body{
+    font-size: 14px;
+    font-family:"Open sans",Arial,sans-serif;   
+    /*
+    se un font non c'è prendi il primo,altrimenti il secondo ecc
+    altrimenti prende un fonti di quella famiglia "famiglia"'
+    */
+    color:black
+}
+#logo {
+    background-color:#1c345a;
+}
+#header,#footer{/*Applico la stessa regola a due id ,che cosi scompaiono*/
+    color:white;
+}
+.current_page_item{
+    font-weight: bold;/*
+    setto il font degli elementi con classe current.... in grassetto */
+    
+}
+
+div#content h2{/*gli h2 nel div con id content diventano rossi */
+    color:#9e1616
+}
